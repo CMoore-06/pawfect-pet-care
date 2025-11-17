@@ -3,6 +3,12 @@ body {
     background-color: #ffe6cc;
 }
 
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 /* Text */
 h3 {
     text-align: center;
@@ -28,4 +34,5 @@ footer a {
 
 .card {
     margin: 5px;
+    height: 100%;
 }

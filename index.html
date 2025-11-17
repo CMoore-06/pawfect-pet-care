@@ -15,9 +15,9 @@
 </head>
 
 <body class="container">
-    <nav class="navbar navbar-expand-lg bg-success">
+    <nav style="position: sticky; top: 0px; z-index: 10;" class="navbar navbar-expand-lg bg-success">
         <div class="container-fluid" id="navbar">
-            <a class="navbar-brand" href="#navbar">Pawfect Pet Care</a>
+            <a class="navbar-brand" href="#top">Pawfect Pet Care</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -25,7 +25,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#carousel">Gallery</a>
+                        <a class="nav-link active" aria-current="page" href="#petcarousel">Gallery</a>
                     </li>
                     <li class="nav-item active">
                         <a class="nav-link" href="#cards">Services</a>
@@ -38,7 +38,9 @@
         </div>
     </nav>
 
-    <div id="petcarousel" class="carousel slide container mb-5 mt-3">
+    <div id="top"></div>
+
+    <div id="petcarousel" class="carousel slide container mb-5 mt-5">
         <h3>-- Gallery --</h3>
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -92,18 +94,18 @@
         </button>
     </div>
 
-    <div id="cards" class="row mb-5 col-lg-12">
+    <div id="cards" class="row mb-5 col-12">
         <h3>-- Services --</h3>
         <div id="grooming" class="card mb-3" style="width: 18rem;">
-            <img src="images/grooming-card.jpeg" class="card-img-top" alt="Dog surounded by grooming tools.">
+            <img src="images/grooming-card.png" class="card-img-top" alt="Dog surounded by grooming tools.">
             <div class="card-body">
-                <p class="card-text">Is your pet in need of a haircut, nail trim, or bath? We'd be happy to help!</p>
+                <p class="card-text">Is your pet in need of a haircut, nail trim, or bath? We'd be happy to help! Just contact us to make an appoitment.</p>
                 <button class="btn btn-success">Book grooming appointment now</button>
             </div>
         </div>
 
        <div id="boarding" class="card mb-3" style="width: 18rem;">
-            <img src="images/boarding-card.jpg" class="card-img-top" alt="Dog laying in one of the boarding beds.">
+            <img src="images/boarding-card.png" class="card-img-top" alt="Dog laying in one of the boarding beds.">
             <div class="card-body">
                 <p class="card-text">Do you need a place for your pet to stay overnight? Look no farther! We have beds with friends and some isolated ones if your pet's feeling antisocial.</p>
                 <button class="btn btn-success">Board Your Pet Now</button>
@@ -113,7 +115,7 @@
         <div id="daycare" class="card" style="width: 18rem;">
             <img src="images/daycare-card.jpg" class="card-img-top" alt="Puppies playing in the yard.">
             <div class="card-body">
-                <p class="card-text">Your pets will love our daycare services. We watch after dogs, cats, birds, and more!</p>
+                <p class="card-text">Your pets will love our daycare services. They'll get taken on walks, get plenty of cuddles and love from our staff, and spend all day playing with friends.</p>
                 <button class="btn btn-success">Sign up for Daycare</button>
             </div>
         </div>
@@ -123,7 +125,7 @@
         <h3>-- FAQs --</h3>
         <div class="accordion-item">
             <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                <button class="accordion-button" type="button" data-bs-toggle="collapse"
                     data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
                     aria-controls="panelsStayOpen-collapseOne">
                     Do you accept walk-in grooming appointments?
@@ -140,12 +142,12 @@
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
                     aria-controls="panelsStayOpen-collapseTwo">
-                    How much is boarding?
+                    What vaxinations are required?
                 </button>
             </h2>
             <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
                 <div class="accordion-body">
-                    A lot of the pricing criteria is the same with daycare. Although boarding costs a little more on average to cover costs of keeping the boarding rooms clean, and any toys that you pet may destroy.
+                    The required vacinations are the same ones your vet recomends getting your pet when you first adopt them. The one we're mostly worried about is rabies. These vaccinations are required for both boarding and daycare.
                 </div>
             </div>
         </div>
@@ -154,12 +156,12 @@
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
                     aria-controls="panelsStayOpen-collapseThree">
-                    How much does daycare cost?
+                    What do I need to bring for daycare/boarding?
                 </button>
             </h2>
             <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
                 <div class="accordion-body">
-                    The cost of daycare really depends on how many animals you want us to look after, and for how long. They type of animal you want us to look after will also impact price. Typicall pets like dogs and cats cost about the same amount. More exotic pets, like birds, lizards, and turtles, will cost extra.    
+                    You don't necessarily need to bring a thing! We have food, beds, and toys to last them until you get back. Although using the items they use daily can help them with anxiety and homesickness so we do encourage our clients to bring them.
                 </div>
             </div>
         </div>
