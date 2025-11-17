@@ -1,0 +1,31 @@
+/* Semantic Elements */
+body {
+    background-color: #ffe6cc;
+}
+
+/* Text */
+h3 {
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Images */
+
+/* Divs, Sections, and others */
+#cards {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+#navbar a {
+    color: white;
+}
+
+.card {
+    margin: 5px;
+}
