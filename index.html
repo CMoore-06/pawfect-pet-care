@@ -15,9 +15,9 @@
 </head>
 
 <body class="container">
-    <nav style="position: sticky; top: 0px; z-index: 10;" class="navbar navbar-expand-lg bg-success">
+    <nav style="position: sticky; top: 0px; z-index: 10;" class="navbar navbar-expand-lg bg-success mb-3">
         <div class="container-fluid" id="navbar">
-            <a class="navbar-brand" href="#top">Pawfect Pet Care</a>
+            <a class="navbar-brand" href="#heading">Pawfect Pet Care</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -38,60 +38,66 @@
         </div>
     </nav>
 
-    <div id="top"></div>
+    <div id="welcome" class="col-lg-12">
+        <div id="heading" class="mb-3 mt-3" style="text-align: center;">
+            <h2 style="text-decoration: underline;">Pawfect Pet Care</h2>
+            <p>Pawfect Pet Care is a pet grooming/boarding/daycare business located in Billings, Missouri. We know it's fairly far out, but it allows us to have a large plot of land for your pets to play and have fun! We offer many services for your pets. We offer grooming appoitmnets for cats and dogs where they can get their nails done, get bathed, and get a haircut. You can even book your pet a full spa day! We also offer daycare services which extend to a lot more than just cats and dogs. We'll also watch after your lizards, turtles, snakes, and birds if you need us to. We do offer food and toys and beds for them but bringing your own is encouraged. If you're going on a vacation you can board your pets overnight. As with daycare we do offer this serivce to many animals, and it's encouraged that you bring your pets things from home. </p>
+            <p style="font-weight: bold;">Contact us as soon as you can to book your pet's grooming, daycare, or boarding!</p>
+        </div>
 
-    <div id="petcarousel" class="carousel slide container mb-5 mt-5">
-        <h3>-- Gallery --</h3>
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
-            <button type="button" data-bs-target="petcarousel" data-bs-slide-to="3" 
-                aria-label="Slide 3"></button>
+        <div id="petcarousel" class="carousel slide container mb-5">
+            <h3>-- Gallery --</h3>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="petcarousel" data-bs-slide-to="3" 
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/husky-bath.webp" class="d-block w-100" alt="A done-with-it-all husky getting a bath.">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Bathing</h5>
+                        <p>We'd be more than happy to bathe those extra feisty pets!</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/interior.jpg" class="d-block w-100" alt="A picture of our main loby.">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Room for Everyone!</h5>
+                        <p>We have more than enough room to make sure everyone is comfortable, even when you're waiting in the loby.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/daycare.jpg" class="d-block w-100" alt="Dogs running in the yard">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Daycare</h5>
+                        <p>We would happily take care of your pets for you if need be! Your pet will love our daycare!</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/boarding.png" class="d-block w-100" alt="Pets and their parents in the friendly boarding rooms.">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Boarding</h5>
+                        <p>We have friendly boarding rooms (pictured above) and we have isolated rooms if your pet would perfer.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#petcarousel"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#petcarousel"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="images/bath.png" class="d-block w-100" alt="A done-with-it-all husky getting a bath.">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Bathing</h5>
-                    <p>We'd be more than happy to bathe those extra feisty pets!</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="images/interior.png" class="d-block w-100" alt="A picture of our main loby.">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Room for Everyone!</h5>
-                    <p>We have more than enough room to make sure everyone is comfortable, even when you're waiting in the loby.</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="images/daycare.png" class="d-block w-100" alt="Dogs running in the yard">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Daycare</h5>
-                    <p>We would happily take care of your pets for you if need be! Your pet will love our daycare!</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="images/boarding.png" class="d-block w-100" alt="Pets and their parents in the friendly boarding rooms.">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Boarding</h5>
-                    <p>We have friendly boarding rooms (pictured above) and we have isolated rooms if your pet would perfer.</p>
-                </div>
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#petcarousel"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#petcarousel"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
     </div>
 
     <div id="cards" class="row mb-5 col-12">
@@ -99,6 +105,7 @@
         <div id="grooming" class="card mb-3" style="width: 18rem;">
             <img src="images/grooming-card.png" class="card-img-top" alt="Dog surounded by grooming tools.">
             <div class="card-body">
+                <h3>Grooming</h3>
                 <p class="card-text">Is your pet in need of a haircut, nail trim, or bath? We'd be happy to help! Just contact us to make an appoitment.</p>
                 <button class="btn btn-success">Book grooming appointment now</button>
             </div>
@@ -107,6 +114,7 @@
        <div id="boarding" class="card mb-3" style="width: 18rem;">
             <img src="images/boarding-card.png" class="card-img-top" alt="Dog laying in one of the boarding beds.">
             <div class="card-body">
+                <h3>Boarding</h3>
                 <p class="card-text">Do you need a place for your pet to stay overnight? Look no farther! We have beds with friends and some isolated ones if your pet's feeling antisocial.</p>
                 <button class="btn btn-success">Board Your Pet Now</button>
             </div>
@@ -115,6 +123,7 @@
         <div id="daycare" class="card" style="width: 18rem;">
             <img src="images/daycare-card.jpg" class="card-img-top" alt="Puppies playing in the yard.">
             <div class="card-body">
+                <h3>Daycare</h3>
                 <p class="card-text">Your pets will love our daycare services. They'll get taken on walks, get plenty of cuddles and love from our staff, and spend all day playing with friends.</p>
                 <button class="btn btn-success">Sign up for Daycare</button>
             </div>
